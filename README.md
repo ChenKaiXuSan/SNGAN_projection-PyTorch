@@ -107,3 +107,6 @@ For the 10k epochs training on MNIST dataset, compare with about 10k samples, I 
 ## Reference
 1. [SNGAN](https://arxiv.org/abs/1802.05957)
 
+## TODO
+- [x] SNGAN implement.
+- [ ] DCGAN model with projection discriminator
