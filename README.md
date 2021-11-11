@@ -89,8 +89,8 @@ For the 10k epochs training on MNIST dataset, compare with about 10k samples, I 
 For the 10k epochs training on the CIFAR10 dataset, compare with about 10k samples, I get the FID: 
 > 108.10053254296571 :warning: I think this test is failing, the reason dont konw why.
 - FASHION-MNIST
-<!-- For the 10k epochs training on the CIFAR10 dataset, I get the FID: 
->  95.55456444871709 -->
+For the 10k epochs training on the CIFAR10 dataset, compare with about 10k samples, I get the FID: 
+>  46.96466240507351
 
 > :warning: I dont konw if the FID is right or not, because I cant get the lowwer score like the paper or the other people get it. 
 ## Network structure
@@ -149,7 +149,7 @@ Discriminator(
 - CIFAR10  
 ![9900_cifar10](img/9900_cifar10.png)
 - Fashion-MNIST
-<!-- ![9900_fashion](img/9900_fashion.png) -->
+![9900_fashion](img/9900_fashion.png)
 ## Reference
 1. [SNGAN](https://arxiv.org/abs/1802.05957)
 
