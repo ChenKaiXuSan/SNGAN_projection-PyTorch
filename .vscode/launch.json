@@ -5,6 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "FID",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceRoot}/FID/pytorch_fid.py",
+            "console": "integratedTerminal",
+        },
+        
+        {
             "name": "dcgan",
             "type": "python",
             "request": "launch",
@@ -15,8 +23,6 @@
                 "mnist",
                 "--channels",
                 "1",
-                "--sample_path",
-                "test_sample",
                 "--version",
                 "debug",
                 "--model",
