@@ -140,3 +140,18 @@ class Discriminator(nn.Module):
         validity = self.last_adv(out) # (*, 1, 1, 1)
 
         return validity.squeeze()
+
+#%% 
+from torchinfo import summary
+
+if __name__ == '__main__':
+    generator = Generator().cuda()
+    discriminator = Discriminator(channels=3).cuda()
+
+    gener = summary(generator, input_size=(64, 100, 1, 1))
+    disc = summary(discriminator, input_size=(64, 3, 64, 64))
+
+    print(gener)
+    print(disc)
+
+# %%
